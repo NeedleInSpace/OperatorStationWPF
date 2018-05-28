@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG tech_process.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ececec;stroke:#000000;stroke-linecap:butt;stroke-width:1.25}
+		.st2 {fill:#ececec}
+		.st3 {stroke:#000000;stroke-linecap:butt;stroke-width:1.25}
+		.st4 {marker-end:url(#mrkr2-20);stroke:#000000;stroke-linecap:butt;stroke-width:1.25}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.3315649867374}
+		.st6 {marker-end:url(#mrkr2-30);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.2376}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.086161879895561}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend2">
+			<path d="M 1 1 L 0 0 L 1 -1 L 1 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr2-20" class="st5" v:arrowType="2" v:arrowSize="2" v:setback="3.016" refX="-3.016" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend2" transform="scale(-3.016,-3.016) "/>
+		</marker>
+		<marker id="mrkr2-30" class="st7" v:arrowType="2" v:arrowSize="2" v:setback="11.6061" refX="-11.606060606061" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend2" transform="scale(-11.606060606061,-11.606060606061) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+			<v:ud v:nameU="PEHideTags"/>
+		</v:userDefs>
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Блок-схема" v:index="0"/>
+		<v:layer v:name="Водопровод" v:index="1"/>
+		<v:layer v:name="Поточное оборудование" v:index="2"/>
+		<v:layer v:name="Вентиль" v:index="3"/>
+		<v:layer v:name="Регулятор расхода" v:index="4"/>
+		<v:layer v:name="Оборудование" v:index="5"/>
+		<v:layer v:name="Трубопроводы" v:index="6"/>
+		<g id="shape5-1" v:mID="5" v:groupContext="shape" v:layerMember="3;4" transform="translate(350.787,-357.165)">
+			<title>Встроенные клапаны</title>
+			<v:custProps>
+				<v:cp v:nameU="SubType" v:lbl="Тип вентиля" v:type="1" v:format="Встроенный;Трехфланцевый;Четырехфланцевый"
+						v:langID="1049" v:val="VT4(Встроенный)"/>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:invis="true" v:langID="1049" v:val="VT4(Компонент здания)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:invis="true" v:langID="1049" v:val="VT4(Регулятор расхода)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="SubShapeType" v:invis="true" v:langID="1049" v:val="VT4(Вентиль)"/>
+				<v:cp v:nameU="BaseElevation" v:lbl="Базовая высота" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="ValveType" v:lbl="Тип вентиля" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="SubType" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({5D50005D-537C-4738-9C46-130C74335A6D})"/>
+				<v:ud v:nameU="ShapeClass" v:prompt="Компонент здания" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShapeType" v:prompt="Регулятор расхода" v:val="VT0(16):26"/>
+				<v:ud v:nameU="SubShapeType" v:prompt="Вентиль" v:val="VT0(90):26"/>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<path d="M0 570.47 L49.61 595.28 L49.61 570.47 L0 595.28 L0 570.47 Z" class="st1"/>
+		</g>
+		<g id="shape6-3" v:mID="6" v:groupContext="shape" v:layerMember="3;4" transform="translate(350.787,-289.843)">
+			<title>Встроенные клапаны.6</title>
+			<v:custProps>
+				<v:cp v:nameU="SubType" v:lbl="Тип вентиля" v:type="1" v:format="Встроенный;Трехфланцевый;Четырехфланцевый"
+						v:langID="1049" v:val="VT4(Встроенный)"/>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:invis="true" v:langID="1049" v:val="VT4(Компонент здания)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:invis="true" v:langID="1049" v:val="VT4(Регулятор расхода)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="SubShapeType" v:invis="true" v:langID="1049" v:val="VT4(Вентиль)"/>
+				<v:cp v:nameU="BaseElevation" v:lbl="Базовая высота" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="ValveType" v:lbl="Тип вентиля" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="SubType" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({5D50005D-537C-4738-9C46-130C74335A6D})"/>
+				<v:ud v:nameU="ShapeClass" v:prompt="Компонент здания" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShapeType" v:prompt="Регулятор расхода" v:val="VT0(16):26"/>
+				<v:ud v:nameU="SubShapeType" v:prompt="Вентиль" v:val="VT0(90):26"/>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<path d="M0 570.47 L49.61 595.28 L49.61 570.47 L0 595.28 L0 570.47 Z" class="st1"/>
+		</g>
+		<g id="shape10-5" v:mID="10" v:groupContext="shape" v:layerMember="5" transform="translate(204.094,-357.165)">
+			<title>Резервуар</title>
+			<v:custProps>
+				<v:cp v:nameU="SubType" v:lbl="Тип резервуара" v:type="1"
+						v:format="С ровными краями;С изогнутыми краями;С наклонными краями" v:langID="1049"
+						v:val="VT4(С изогнутыми краями)"/>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Manufacturer" v:lbl="Изготовитель" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Model" v:lbl="Модель" v:type="0" v:sortKey="3" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="SubType" v:val="VT0(1):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(E-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="E-0" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,Material,Manufacturer,Model" v:val="VT4(Оборудование)"/>
+			</v:userDefs>
+			<path d="M-0 585.24 A65.9883 39.5376 -180 0 0 87.87 585.24 L87.87 484.84 A65.9904 39.5389 -180 0 0 0 484.84 L0 585.24
+						 Z" class="st1"/>
+		</g>
+		<g id="shape11-7" v:mID="11" v:groupContext="shape" v:layerMember="5" transform="translate(231.024,-311.811)">
+			<title>Огневой подогреватель</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Manufacturer" v:lbl="Изготовитель" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Model" v:lbl="Модель" v:type="0" v:sortKey="3" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(E-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="E-0" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,Material,Manufacturer,Model" v:val="VT4(Оборудование)"/>
+			</v:userDefs>
+			<path d="M16.5 590.17 a0.510236 0.566929 0 1 1 1.02047 0 a0.510236 0.566929 0 1 1 -1.02047 0 ZM11.34 552.76 L11.34 559.84
+						 L0 566.93 L0 595.28 L34.02 595.28 L34.02 566.93 L22.68 559.84 L22.68 552.76 L11.34 552.76 Z" class="st2"/>
+			<path d="M16.5 590.17 a0.510236 0.566929 0 1 1 1.02047 0 a0.510236 0.566929 0 1 1 -1.02047 0" class="st3"/>
+			<path d="M17.01 595.28 L17.01 590.74" class="st3"/>
+			<path d="M34.02 581.1 L13.61 581.1 L23.81 584.65 L13.61 588.19 L34.02 588.19" class="st3"/>
+			<path d="M11.34 552.76 L11.34 559.84 L0 566.93 L0 595.28 L34.02 595.28 L34.02 566.93 L22.68 559.84 L22.68 552.76"
+					class="st3"/>
+			<path d="" class="st3"/>
+		</g>
+		<g id="shape12-14" v:mID="12" v:groupContext="shape" v:layerMember="5" transform="translate(106.299,-334.488)">
+			<title>Центробежный насос</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Manufacturer" v:lbl="Изготовитель" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Model" v:lbl="Модель" v:type="0" v:sortKey="3" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="E-0" v:val="VT4(Оборудование)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(E-0)"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,Material,Manufacturer,Model" v:val="VT4(Оборудование)"/>
+			</v:userDefs>
+			<path d="M0 578.27 A17.0079 17.0079 0 0 1 34.02 578.27 A17.0079 17.0079 0 1 1 0 578.27 ZM8.5 592.89 L0 598.68 L34.02
+						 598.68 L25.51 592.89 A16.3762 16.3762 0 0 1 8.5 592.89 Z" class="st2"/>
+			<path d="M0 578.27 A17.0079 17.0079 0 0 1 34.02 578.27 A17.0079 17.0079 0 1 1 0 578.27" class="st3"/>
+			<path d="M-8.5 578.27 L13.24 578.27" class="st4"/>
+			<path d="M17.01 561.26 L30.25 561.26" class="st4"/>
+			<path d="M8.5 592.89 L0 598.68 L34.02 598.68 L25.51 592.89 A16.3762 16.3762 0 0 1 8.5 592.89" class="st3"/>
+		</g>
+		<g id="shape13-25" v:mID="13" v:groupContext="shape" v:layerMember="6" transform="translate(350.787,-299.941)">
+			<title>Основной трубопровод (П)</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 592.97 L-102.76 592.97 L-102.76 586.16" class="st6"/>
+		</g>
+		<g id="shape15-31" v:mID="15" v:groupContext="shape" v:layerMember="6" transform="translate(473.66,-295.157)">
+			<title>Основной трубопровод (П).15</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 588.19 L-70.51 588.19" class="st6"/>
+		</g>
+		<g id="shape16-36" v:mID="16" v:groupContext="shape" v:layerMember="6" transform="translate(400.394,-362.48)">
+			<title>Основной трубопровод (П).16</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 588.19 L68.22 588.19" class="st6"/>
+		</g>
+		<g id="shape18-41" v:mID="18" v:groupContext="shape" v:layerMember="6" transform="translate(248.031,-477.638)">
+			<title>Основной трубопровод (П).18</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 595.28 L0 574.02 L81.5 574.02 L81.5 703.35 L100 703.35" class="st6"/>
+		</g>
+		<g id="shape19-46" v:mID="19" v:groupContext="shape" v:layerMember="6" transform="translate(140.315,-368.504)">
+			<title>Основной трубопровод (П).19</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 595.28 L21.26 595.28 L21.26 576.5 L61.02 576.5" class="st6"/>
+		</g>
+		<g id="shape20-51" v:mID="20" v:groupContext="shape" v:layerMember="6" transform="translate(56.6929,-307.559)">
+			<title>Основной трубопровод (П).20</title>
+			<v:custProps>
+				<v:cp v:nameU="Description" v:lbl="Описание" v:type="0" v:sortKey="0" v:langID="1049"/>
+				<v:cp v:nameU="LineSize" v:lbl="Размер линии" v:type="0" v:sortKey="1" v:langID="1049"/>
+				<v:cp v:nameU="Schedule" v:lbl="Расписание" v:type="0" v:sortKey="2" v:langID="1049"/>
+				<v:cp v:nameU="Material" v:lbl="Материал" v:type="0" v:sortKey="3" v:langID="1049"/>
+				<v:cp v:nameU="DesignPressure" v:lbl="Расчетное давление" v:type="0" v:sortKey="4" v:langID="1049"/>
+				<v:cp v:nameU="DesignTemperature" v:lbl="Расчетная температура" v:type="0" v:sortKey="5" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TextCH" v:prompt="Determines text control handle visibility." v:val="VT0(5):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({D7D7DB7E-3668-43e5-AF97-97F58AB229A5})"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT4(Трубопроводы)"/>
+				<v:ud v:nameU="PEComponentTag" v:val="VT4(P-0)"/>
+				<v:ud v:nameU="PETagNumber"/>
+				<v:ud v:nameU="PETagFormat" v:prompt="P-0" v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="PEHideTag"/>
+				<v:ud v:nameU="PEPageHideTags" v:val="VT0(0):26"/>
+				<v:ud v:nameU="PELayout" v:val="VT0(31):26"/>
+				<v:ud v:nameU="CPMSetList" v:prompt="Description,LineSize,Schedule,Material,DesignPressure,DesignTemperature"
+						v:val="VT4(Трубопровод)"/>
+				<v:ud v:nameU="UnitSize" v:val="VT0(0.11811023622047):24"/>
+			</v:userDefs>
+			<path d="M0 595.28 L21.26 595.28 L21.26 551.34 L38.34 551.34" class="st6"/>
+		</g>
+	</g>
+</svg>
