@@ -48,6 +48,7 @@ namespace Operator_Station_WPF
                         s7_client.ConnectTo(ip_addr, 0, 2);
                         client_connected = 1;
                         conn_status_label.Content = "Соединен с " + ip_addr + " по\nпротоколу S7 Communication";
+                        Task.Factory.StartNew(S7Update, update_task_ctoken);
                         
                     }
                     else if (modbus_radio.IsChecked == true)
@@ -132,6 +133,73 @@ namespace Operator_Station_WPF
                     pressure_label.Content = String.Format("{0:F1}%", pressure * 100);
                     pressure_progressbar.Value = pressure;
                     if (alrm == 1) {
+                        alarm_presshigh.IsEnabled = true;
+                    }
+                    else if (alrm == 2)
+                    {
+                        alarm_pressdang.IsEnabled = true;
+                    }
+                    else if (alrm == 3)
+                    {
+                        alarm_watrlow.IsEnabled = true;
+                    }
+                    else if (alrm == 4)
+                    {
+                        alarm_watrhigh.IsEnabled = true;
+                    }
+                    else if (alrm == 0)
+                    {
+                        alarm_pressdang.IsEnabled = false;
+                        alarm_presshigh.IsEnabled = false;
+                        alarm_watrhigh.IsEnabled = false;
+                        alarm_watrlow.IsEnabled = false;
+                    }
+                });
+                if (auto_mode)
+                {
+
+                }
+            }
+        }
+
+        void S7Update()
+        {
+            float gas_v;
+            float pump;
+            float steam_v;
+            float water_lvl;
+            float pressure;
+            ushort alrm;
+            bool torch;
+
+            while (client_connected == 1)
+            {
+                Thread.Sleep(500);
+                if (update_task_ctoken.IsCancellationRequested)
+                {
+                    return;
+                }
+                byte[] buffer = new byte[24];
+
+                s7_client.DBRead(1, 0, 24, buffer);
+                gas_v = S7.GetRealAt(buffer, 0);
+                pump = S7.GetRealAt(buffer, 4);
+                steam_v = S7.GetRealAt(buffer, 8);
+                water_lvl = S7.GetRealAt(buffer, 12);
+                pressure = S7.GetRealAt(buffer, 16);
+                alrm = S7.GetUIntAt(buffer, 20);
+                torch = S7.GetBitAt(buffer, 22, 0);
+                Dispatcher.Invoke(() =>
+                {
+                    valve2_label.Content = String.Format("КЛ2: {0:F1}%", gas_v * 100);
+                    pump_label.Content = String.Format("НАС: {0:F1}%", pump * 100);
+                    valve1_label.Content = String.Format("КЛ1: {0:F1}%", steam_v * 100);
+                    waterlvl_label.Content = String.Format("{0:F1}%", water_lvl * 100);
+                    waterlvl_progressbar.Value = water_lvl;
+                    pressure_label.Content = String.Format("{0:F1}%", pressure * 100);
+                    pressure_progressbar.Value = pressure;
+                    if (alrm == 1)
+                    {
                         alarm_presshigh.IsEnabled = true;
                     }
                     else if (alrm == 2)
