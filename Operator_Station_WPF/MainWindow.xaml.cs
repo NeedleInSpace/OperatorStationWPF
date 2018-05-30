@@ -139,7 +139,7 @@ namespace Operator_Station_WPF
                     }
                     else
                     {
-                        heater_status_ellipse.Fill = new SolidColorBrush(Colors.Green);
+                        heater_status_ellipse.Fill = new SolidColorBrush(Colors.Red);
                     }
 
                     if (alrm == 1) {
@@ -208,6 +208,14 @@ namespace Operator_Station_WPF
                     waterlvl_progressbar.Value = water_lvl;
                     pressure_label.Content = String.Format("{0:F1}%", pressure * 100);
                     pressure_progressbar.Value = pressure;
+                    if (torch)
+                    {
+                        heater_status_ellipse.Fill = new SolidColorBrush(Colors.Green);
+                    }
+                    else
+                    {
+                        heater_status_ellipse.Fill = new SolidColorBrush(Colors.Red);
+                    }
                     if (alrm == 1)
                     {
                         alarm_presshigh.IsEnabled = true;
